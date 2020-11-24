@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: #ffffff;
+    background: #1e2d3b;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* APP */
+
+/* HEADER */
+
+.app-header {
+    padding: 10px 10px 5px;
+    background: #2b3a47;
+}
+
+.app-header img {
+    max-height: 50px;
+}
+
+/* CDs LIST */
+
+.cds-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 10px;
+    list-style: none;
+}
+
+.cd {
+    flex-basis: 200px;
+    padding: 20px;
+    margin: 20px 10px;
+    text-align: center;
+    background: #2e3a46;
+}
+
+.wrap-image {
+    min-height: 170px;
+}
+
+.cd .title {
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.cd .author,
+.cd .year {
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.cd .author {
+    font-size: 20px;
+}
+
+/* FILTER */
+
+.genre-filter {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.genre-filter select {
+    margin-left: 10px;
+}
+
